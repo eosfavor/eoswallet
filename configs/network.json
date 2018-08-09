@@ -8,14 +8,21 @@
     "network": "eos",
     "endpoints": [
       {
-        "name": "default",
+        "name": "Bp",
         "protocol": "http",
         "port": 8888,
         "url": "106.10.42.238",
         "description": "Public node provided by EOSFAVOR"
       },
       {
-        "name": "Scatter Load Balancer",
+        "name": "default",
+        "protocol": "https",
+        "port": 443,
+        "url": "node.eosflare.io",
+        "description": "node list"
+      },
+      {
+        "name": "scatter",
         "protocol": "https",
         "port": 443,
         "url": "nodes.get-scatter.com",
