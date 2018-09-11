@@ -8,21 +8,35 @@
     "network": "eos",
     "endpoints": [
       {
-        "name": "Bp",
+        "name": "tmp",
         "protocol": "http",
-        "port": 8888,
-        "url": "106.10.42.238",
+        "port": 80,
+        "url": "mainnet.eoscalgary.io",
         "description": "Public node provided by EOSFAVOR"
       },
       {
-        "name": "default",
+        "name": "tmp",
         "protocol": "https",
         "port": 443,
         "url": "node.eosflare.io",
-        "description": "node list"
+        "description": "node list1"
       },
       {
-        "name": "scatter",
+        "name": "tmp",
+        "protocol": "https",
+        "port": 443,
+        "url": "eosapi.blockmatrix.network",
+        "description": "node list1"
+      },
+	  {
+        "name": "default",
+        "protocol": "https",
+        "port": 443,
+        "url": "mainnet.genereos.io",
+        "description": "node list1"
+      },
+      {
+        "name": "tmp",
         "protocol": "https",
         "port": 443,
         "url": "nodes.get-scatter.com",
