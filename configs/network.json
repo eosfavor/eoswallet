@@ -15,7 +15,7 @@
         "description": "Public node provided by EOSFAVOR"
       },
       {
-        "name": "tmp",
+        "name": "default",
         "protocol": "https",
         "port": 443,
         "url": "node.eosflare.io",
@@ -29,7 +29,7 @@
         "description": "node list1"
       },
 	  {
-        "name": "default",
+        "name": "tmp",
         "protocol": "https",
         "port": 443,
         "url": "mainnet.genereos.io",
