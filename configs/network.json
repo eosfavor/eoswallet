@@ -15,10 +15,17 @@
         "description": "Public node provided by EOSFAVOR"
       },
       {
-        "name": "default",
+        "name": "tmp",
         "protocol": "https",
         "port": 443,
         "url": "node.eosflare.io",
+        "description": "node list1"
+      },
+	  {
+        "name": "default",
+        "protocol": "http",
+        "port": 8883,
+        "url": "mainnet1.eos.ren",
         "description": "node list1"
       },
       {
